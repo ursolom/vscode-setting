@@ -7,35 +7,36 @@
 // React Extension Pack
 // Tailwind CSS IntelliSense
 // PHP Intelephense
-{ 
+
+{
     "breadcrumbs.enabled": false,
     "editor.renderWhitespace": "none",
     "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.fontSize": 16,
     "diffEditor.ignoreTrimWhitespace": true,
     "liveServer.settings.donotVerifyTags": true,
     "emmet.includeLanguages": {
-      "javascript": "javascriptreact",
-      "ejs": "html",
-      "blade": "html"
+        "javascript": "javascriptreact",
+        "ejs": "html",
+        "blade": "html"
     },
     "terminal.integrated.env.windows": {},
     "emmet.excludeLanguages": [
-      "markdown"
+        "markdown"
     ],
     "[json]": {
-      "editor.quickSuggestions": {
-        "strings": true
-      },
-      "editor.suggest.insertMode": "replace",
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.linkedEditing": true,
     "workbench.editor.decorations.colors": true,
@@ -52,23 +53,23 @@
     "editor.tabSize": 2,
     "git.enableSmartCommit": true,
     "[dart]": {
-      "editor.formatOnSave": false,
-      "editor.formatOnType": true,
-      "editor.rulers": [
-        80
-      ],
-      "editor.selectionHighlight": false,
-      "editor.suggest.snippetsPreventQuickSuggestions": false,
-      "editor.suggestSelection": "first",
-      "editor.tabCompletion": "onlySnippets",
-      "editor.wordBasedSuggestions": "off"
+        "editor.formatOnSave": false,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
     },
     "editor.minimap.enabled": false,
     "dart.debugExternalPackageLibraries": false,
     "dart.debugSdkLibraries": false,
     "editor.unicodeHighlight.allowedCharacters": {
-      "ا": true,
-      "ه": true
+        "ا": true,
+        "ه": true
     },
     "files.autoSave": "afterDelay",
     "explorer.compactFolders": false,
@@ -76,21 +77,21 @@
     "dart.showInspectorNotificationsForWidgetErrors": false,
     "workbench.colorTheme": "Ayu Dark",
     "[jsonc]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
     "editor.scrollbar.verticalScrollbarSize": 19,
     "editor.scrollbar.horizontalScrollbarSize": 19,
     "[css]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.detectIndentation": false,
     "explorer.copyRelativePathSeparator": "/",
     "[javascriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "git.openRepositoryInParentFolders": "never",
     "editor.unicodeHighlight.allowedLocales": {
-      "es": true
+        "es": true
     },
     "window.menuBarVisibility": "compact",
     "dart.flutterHotReloadOnSave": "all",
@@ -102,37 +103,53 @@
     "editor.cursorBlinking": "smooth",
     "php.validate.executablePath": "",
     "[php]": {
-      "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
     "intelephense.environment.phpVersion": "8.1.0",
     "blade.format.enable": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "[typescript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "tailwindCSS.emmetCompletions": true,
     "editor.quickSuggestions": {
-      "strings": true
+        "strings": true
     },
     "css.validate": false,
     "editor.inlineSuggest.enabled": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
+      "source.fixAll.eslint": "explicit"
     },
     "eslint.validate": [
-      "javascript",
-      "javascriptreact",
-      "typescript",
-      "typescriptreact"
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
     ],
     "files.associations": {
-      "*.blade.php": "blade"
+        "*.blade.php": "blade"
     },
     "emmet.triggerExpansionOnTab": true,
     "workbench.settings.applyToAllProfiles": [
-      
-    ]
+    
+    ],
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "editor.fontWeight": "400",
+    "editor.fontLigatures": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.cursorWidth": 3,
+    "editor.renderWhitespace": "boundary",
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": false,
+    "terminal.integrated.minimumContrastRatio": 7, 
+    "editor.lineHeight": 1.5,
+    "editor.fontSize": 16, 
+    "editor.letterSpacing": 0.5,
+    "files.autoSaveDelay": 1000,
+    "editor.fontStyle": "italic",
+    "bracket-pair-colorizer-2.depreciation-notice": false
 }
