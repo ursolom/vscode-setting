@@ -1,0 +1,72 @@
+.quick-input-widget.show-file-icons {
+  top: 25% !important;
+  padding-bottom: 4px;
+}
+
+.quick-input-list {
+  padding: 0px 2px 0px 2px;
+  margin-top: 0;
+}
+
+.quick-input-list [class^="monaco-list list_id"] .monaco-list-rows {
+  background: var(--vscode-quickInput-background) !important;
+}
+
+
+
+.monaco-workbench .synthetic-focus {
+  outline: var(--vscode-quickInput-background) !important;
+}
+
+
+.quick-input-and-message .monaco-inputbox > .ibwrapper > .input {
+  border-radius: 8px !important;
+  padding: 5px;
+  background-color: var(--vscode-quickInput-background) !important;
+  border: 1px solid var(--vscode-quickInputList-focusBackground);
+  margin-top: -3px;
+}
+
+.quick-input-list .monaco-list-row {
+  border-radius: 4px;
+}
+
+.quick-input-list .quick-input-list-entry-action-bar .action-label.codicon {
+  margin-right: 0;
+}
+
+.quick-input-action {
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+}
+
+.quick-input-count {
+  right: 14px;
+}
+
+/* ------------ Editor Screen ------------ */
+.monaco-editor .peekview-widget .head .peekview-title {
+  flex: 5 !important;
+}
+
+.line-numbers {
+  transform: scale(0.9);
+  transition: all 10 linear;
+}
+
+.line-numbers.active-line-number {
+  transform: scale(1) translateX(-3px);
+  animation: 0.2s ease-out scaleSize;
+}
+
+@keyframes scaleSize {
+  0% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1) translateX(-3px);
+  }
+}
+
