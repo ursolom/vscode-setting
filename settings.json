@@ -1,5 +1,4 @@
 {
-    "breadcrumbs.enabled": false,
     "editor.renderWhitespace": "none",
     "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -9,7 +8,7 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.fontSize": 16,
-    "editor.fontFamily": "JetBrains Mono, monospace",
+    "editor.fontFamily": "JetBrains Mono, Caveat, monospace",
     "editor.fontLigatures": true,
     "editor.fontWeight": "200",
     "diffEditor.ignoreTrimWhitespace": true,
@@ -60,26 +59,18 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "editor.scrollbar.verticalScrollbarSize": 15,
-    "editor.scrollbar.horizontalScrollbarSize": 15,
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "editor.detectIndentation": false,
     "explorer.copyRelativePathSeparator": "/",
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "git.openRepositoryInParentFolders": "never",
-    "editor.unicodeHighlight.allowedLocales": {
-        "es": true
-    },
     "window.menuBarVisibility": "visible",
     "editor.cursorSmoothCaretAnimation": "on",
-    "editor.multiCursorLimit": 5,
     "editor.cursorWidth": 5,
     "editor.cursorBlinking": "smooth",
-    "php.validate.executablePath": "",
     "[php]": {
         "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
@@ -110,10 +101,8 @@
     "files.associations": {
         "*.blade.php": "blade"
     },
-    "emmet.triggerExpansionOnTab": true,
-    "workbench.settings.applyToAllProfiles": [],
     "workbench.editorAssociations": {
-        "*.sqlite": "default",
+        "*.sqlite": "default"
     },
     "[blade]": {
         "editor.defaultFormatter": "onecentlin.laravel-blade"
@@ -133,8 +122,24 @@
         "*.s3db": "${capture}.${extname}-*"
     },
     "bracket-pair-colorizer-2.depreciation-notice": false,
-    
+    "editor.guides.bracketPairs": "active",
+    "cmake.showOptionsMovedNotification": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "workbench.settings.applyToAllProfiles": [],
+    "gitlens.ai.experimental.vscode.model": "",
+    "vscode_custom_css.imports": [
+        "file:///F:/Work_Programing/vscode_Setting/Styles.css"
+    ],
+    "php.validate.executablePath": "C:\\Program Files\\Herd\\bin\\php.exe",
+    "php.executablePath": "C:\\Program Files\\Herd\\bin\\php.exe",
+    "php.suggest.basic": true,
+    "php.validate.run": "onSave",
+    "editor.cursorStyle": "line",
+    "editor.multiCursorLimit": 50,
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelScrollSensitivity": 1.8,
+    "editor.scrollBeyondLastLine": true,
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
 }
-
-
-/////////////new
